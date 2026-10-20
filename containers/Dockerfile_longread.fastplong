@@ -19,6 +19,7 @@ dependencies:
   - samtools=1.16.1
   - flye=2.9.2
   - fastplong
+  - python-kaleido=0.2.1
 EOF
 
 RUN micromamba install -y -n base -f long_read.yml && \
